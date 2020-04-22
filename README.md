@@ -14,7 +14,7 @@ This project is developed to demonstarate DB to UI design for a travel agency we
 - EJS view engin is used to design dynamic pages
 - static files are fetched from static folder
 
-### Backend:
+### Backend
 
 - server.js: runs express and builds basis for fetching data from json files (which is our temp database)
 - index.js: router handler and all router requests sent from index.js file. top packages and About us is the content of rhis page
