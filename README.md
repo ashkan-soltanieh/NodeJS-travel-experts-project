@@ -26,6 +26,6 @@ This project is developed to demonstarate DB to UI design for a travel agency we
 
 ### Photo's references
 
-- Index page hero image: ![Eva Air](https://www.evaair.com/en-th/index.html)
-- Packages page: ![The most beautiful squares in the world blog](https://loveandroad.com/beautiful-squares-in-the-world/)
+- Index page hero image: (https://www.evaair.com/en-th/index.html)
+- Packages page: (https://loveandroad.com/beautiful-squares-in-the-world/)
 - Inspiered from Daniel Khan for LinkedIn Learning Course
