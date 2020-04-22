@@ -7,8 +7,8 @@
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "Daniel Khan",
-  "license": "MIT",
+  "author": "Ashkan Soltanieh",
+  "license": "",
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-google": "^0.14.0",
