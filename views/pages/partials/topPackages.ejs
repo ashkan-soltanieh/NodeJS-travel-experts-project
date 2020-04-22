@@ -1,0 +1,27 @@
+<article class="jumbotron d-sm-block">
+  <div class="container">
+    <div class="row">
+      <% topPackages.forEach(element => {%>
+      <div class="col-md text-center">
+        <h4 class="packageslist-title"><%= element.PkgName %></h4>
+        <div class="packageslist-name">
+          Price:
+          <a>$<%=element.PkgBasePrice%></a>
+        </div>
+        <div class="packageslist-name">
+          <a href="/order"><%=element.PkgStartDate%> - <%=element.PkgEndDate%></a>
+        </div>
+        <p class="mt-2">
+          <a>
+            <img
+              class="rounded-circle"
+              src="/images/packages/00<%=element.PackageId%>.jpg"
+              alt="Photo of <%= element.PkgName %>"
+            />
+          </a>
+        </p>
+      </div>
+      <%});%>
+    </div>
+  </div>
+</article>

@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 300;
+  color: #c1343f;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+a {
+  color: #dd4f53;
+}
+
+header .jumbotron {
+  height: 40vh;
+  margin-bottom: 0;
+  background: url(../images/misc/background.jpg) no-repeat 100% 5%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header .navbar-brand {
+  font-size: 1.2em;
+}
+
+div.container.mt-4 .col-sm-8 {
+  text-align: justify;
+  font-size: 18px;
+  width: 80vw;
+  max-width: 75ch;
+  min-width: 30ch;
+  line-height: 1.5;
+  margin: auto;
+}
+
+div.row .col-md-4 {
+  margin: auto;
+}
+
+.maincontent {
+  line-height: 160%;
+}
+
+.packageslist-title {
+  color: #000000 !important;
+}
+
+.packageslist-name a:hover {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.jumbotron {
+  padding: 20px 0;
+  border-radius: 0%;
+}
+
+.register-name {
+  font-size: 0.6em;
+  font-weight: 100;
+}
+
+.register-message {
+  font-weight: 100;
+  font-size: 0.9em;
+  line-height: 120%;
+  margin-top: 5px;
+}
+
+.register-item {
+  border-bottom: 1px solid gray;
+  padding: 8px 0;
+}
+
+.register-title {
+  font-weight: 400;
+  font-size: 1.1em;
+}
+
+.register-form label {
+  font-weight: 400;
+}
+
+.register-item:last-of-type {
+  border-bottom: none;
+}
+
+/* used in javascript for adding background color based on inputs being correct or wrong */
+.green-bg {
+  background-color: rgba(0, 255, 0, 0.1);
+}
+.red-bg {
+  background-color: rgba(255, 0, 0, 0.1);
+}

@@ -1,0 +1,42 @@
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-sm-8">
+      <article class="maincontent">
+        <% packages.forEach((element, key) => {%>
+        <button onclick="window.location.href='/order'" class="btn btn-secondary float-right">
+          Order
+        </button>
+        <div class="mb-4">
+          <h4 class="packageslist-title"><%=element.PkgName%></h4>
+          <div class="packageslist-name">
+            Price:
+            <a>$<%=element.PkgBasePrice%></a>
+          </div>
+          <div class="packageslist-name">
+            From:
+            <a href="/order"><%=element.PkgStartDate%></a>
+          </div>
+          <div class="packageslist-name">
+            To:
+            <a> <%=element.PkgEndDate%></a>
+          </div>
+          <div class="row mt-2">
+            <div class="col-sm-3">
+              <a>
+                <img
+                  class="rounded-circle img-fluid"
+                  src="./images/packages/00<%=key%>.jpg"
+                  alt="Photo of <%=element.PkgName%>"
+                />
+              </a>
+            </div>
+            <div class="col-sm-9">
+              <%=element.PkgDesc%>
+            </div>
+          </div>
+        </div>
+        <%});%>
+      </article>
+    </div>
+  </div>
+</div>
