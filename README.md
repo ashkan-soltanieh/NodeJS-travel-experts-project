@@ -24,8 +24,8 @@ This project is developed to demonstarate DB to UI design for a travel agency we
 - contactus: provides from to user to submit feedback. from data are handled in backend to submit to database
 - contactlist: fetches agent and agency information from database and show them on frontend
 
-### Photo's references
+### References
 
 - Index page hero image: (https://www.evaair.com/en-th/index.html)
-- Packages page: (https://loveandroad.com/beautiful-squares-in-the-world/)
+- Packages page images: (https://loveandroad.com/beautiful-squares-in-the-world/)
 - Inspiered from Daniel Khan for LinkedIn Learning Course
